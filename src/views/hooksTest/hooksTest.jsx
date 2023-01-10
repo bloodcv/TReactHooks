@@ -4,7 +4,8 @@ import { Button, Tag, WhiteSpace } from 'antd-mobile'
 // import ClassCom from '../../components/ClassCom'
 // import AloneState from '../../components/AloneState'
 // import GetFutureVal from '../../components/GetFutureVal'
-import GetPassVal from '../../components/GetPassVal'
+// import GetPassVal from '../../components/GetPassVal'
+import UseEffect0 from '../../components/UseEffect0'
 
 class HooksTest extends Component {
   state = {
@@ -43,7 +44,8 @@ class HooksTest extends Component {
         {/* <ClassCom count={count}/> */}
         {/* <AloneState /> */}
         {/* <GetFutureVal /> */}
-        <GetPassVal />
+        {/* <GetPassVal /> */}
+        <UseEffect0 />
       </main>
     )
   }
